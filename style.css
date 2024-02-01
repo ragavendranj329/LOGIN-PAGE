@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('IMAGES/LOGIN_BACKGROUND.avif'); /* Replace 'your-background-image.jpg' with the actual image file path or URL */
+    background-size: cover;
+}
+
+.container {
+    background-color: rgba(87, 176, 231, 0.8); /* Replace with your preferred color; here it's teal with some transparency */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(219, 7, 7, 0.2);
+    width: 300px;
+    color: #ac1919; /* Set text color to white for better contrast on the colored background */
+}
+
+/* Your existing CSS styles */
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    text-align: center;
+    color: #7e0148;
+}
+
+label {
+    margin-top: 10px;
+    color: #fed005;
+}
+
+input, button {
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    cursor: pointer;
+    background-color: #4caf50;
+    color: white;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#loginMessage {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+}
